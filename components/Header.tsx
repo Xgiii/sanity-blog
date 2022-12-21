@@ -7,7 +7,7 @@ function Header() {
       <div className='flex items-center space-x-2'>
         <Link href='/'>
           <Image
-            className='w-[50px] h-[50px] rounded-full overflow-hidden'
+            className='w-[50px] h-[50px] rounded-full object-cover object-top'
             src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/168px-Michael_Jordan_in_2014.jpg'
             width={50}
             height={50}
